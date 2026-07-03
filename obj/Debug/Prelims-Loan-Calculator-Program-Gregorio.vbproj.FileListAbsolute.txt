@@ -1,0 +1,13 @@
+C:\Users\STUDENT\Downloads\Prelims-Loan-Calculator-Program-Gregorio\bin\Debug\Prelims-Loan-Calculator-Program-Gregorio.exe.config
+C:\Users\STUDENT\Downloads\Prelims-Loan-Calculator-Program-Gregorio\bin\Debug\Prelims-Loan-Calculator-Program-Gregorio.exe
+C:\Users\STUDENT\Downloads\Prelims-Loan-Calculator-Program-Gregorio\bin\Debug\Prelims-Loan-Calculator-Program-Gregorio.pdb
+C:\Users\STUDENT\Downloads\Prelims-Loan-Calculator-Program-Gregorio\bin\Debug\Prelims-Loan-Calculator-Program-Gregorio.xml
+C:\Users\STUDENT\Downloads\Prelims-Loan-Calculator-Program-Gregorio\obj\Debug\Prelims-Loan-Calculator-Program-Gregorio.vbproj.AssemblyReference.cache
+C:\Users\STUDENT\Downloads\Prelims-Loan-Calculator-Program-Gregorio\obj\Debug\Prelims_Loan_Calculator_Program_Gregorio.Form1.resources
+C:\Users\STUDENT\Downloads\Prelims-Loan-Calculator-Program-Gregorio\obj\Debug\Prelims_Loan_Calculator_Program_Gregorio.Resources.resources
+C:\Users\STUDENT\Downloads\Prelims-Loan-Calculator-Program-Gregorio\obj\Debug\Prelims-Loan-Calculator-Program-Gregorio.vbproj.GenerateResource.cache
+C:\Users\STUDENT\Downloads\Prelims-Loan-Calculator-Program-Gregorio\obj\Debug\Prelims-Loan-Calculator-Program-Gregorio.vbproj.CoreCompileInputs.cache
+C:\Users\STUDENT\Downloads\Prelims-Loan-Calculator-Program-Gregorio\obj\Debug\Prelims-Loan-Calculator-Program-Gregorio.exe
+C:\Users\STUDENT\Downloads\Prelims-Loan-Calculator-Program-Gregorio\obj\Debug\Prelims-Loan-Calculator-Program-Gregorio.xml
+C:\Users\STUDENT\Downloads\Prelims-Loan-Calculator-Program-Gregorio\obj\Debug\Prelims-Loan-Calculator-Program-Gregorio.pdb
+C:\Users\STUDENT\Downloads\Prelims-Loan-Calculator-Program-Gregorio\obj\Debug\Prelims_Loan_Calculator_Program_Gregorio.Form2.resources

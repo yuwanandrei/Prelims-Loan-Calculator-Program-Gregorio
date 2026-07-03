@@ -11,6 +11,25 @@
         If result = DialogResult.Yes Then
             Me.Hide()
             Form1.Show()
+            mainPanel.Controls.Clear()
         End If
+    End Sub
+
+    Private Sub RichTextBox2_TextChanged(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles mainPanel.Paint
+
+    End Sub
+    Sub switchpanel(ByVal panel As Form)
+        mainPanel.Controls.Clear()
+        panel.TopLevel = False
+        mainPanel.Controls.Add(panel)
+        panel.Show()
+    End Sub
+
+    Private Sub btnApplyLoan_Click(sender As Object, e As EventArgs) Handles btnApplyLoan.Click
+        switchpanel(applyLoan)
     End Sub
 End Class

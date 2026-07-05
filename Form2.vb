@@ -32,4 +32,12 @@
     Private Sub btnApplyLoan_Click(sender As Object, e As EventArgs) Handles btnApplyLoan.Click
         switchpanel(applyLoan)
     End Sub
+
+    Private Sub Panel1_Paint_1(sender As Object, e As PaintEventArgs)
+
+    End Sub
+
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+
+    End Sub
 End Class

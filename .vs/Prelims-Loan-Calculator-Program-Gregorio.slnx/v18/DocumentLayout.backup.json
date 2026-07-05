@@ -3,28 +3,34 @@
   "WorkspaceRootPath": "C:\\Users\\yuwan\\Downloads\\Prelims-Loan-Calculator-Program-Gregorio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B6BB6E27-7B97-4E0C-9E81-C02CC4BEAC9B}|Prelims-Loan-Calculator-Program-Gregorio.vbproj|C:\\Users\\yuwan\\Downloads\\Prelims-Loan-Calculator-Program-Gregorio\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{B6BB6E27-7B97-4E0C-9E81-C02CC4BEAC9B}|Prelims-Loan-Calculator-Program-Gregorio.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Prelims-Loan-Calculator-Program-Gregorio||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6BB6E27-7B97-4E0C-9E81-C02CC4BEAC9B}|Prelims-Loan-Calculator-Program-Gregorio.vbproj|C:\\Users\\yuwan\\Downloads\\Prelims-Loan-Calculator-Program-Gregorio\\applyloan.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{B6BB6E27-7B97-4E0C-9E81-C02CC4BEAC9B}|Prelims-Loan-Calculator-Program-Gregorio.vbproj|c:\\users\\yuwan\\downloads\\prelims-loan-calculator-program-gregorio\\loancomputation.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{B6BB6E27-7B97-4E0C-9E81-C02CC4BEAC9B}|Prelims-Loan-Calculator-Program-Gregorio.vbproj|solutionrelative:loancomputation.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6BB6E27-7B97-4E0C-9E81-C02CC4BEAC9B}|Prelims-Loan-Calculator-Program-Gregorio.vbproj|c:\\users\\yuwan\\downloads\\prelims-loan-calculator-program-gregorio\\loancomputation.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{B6BB6E27-7B97-4E0C-9E81-C02CC4BEAC9B}|Prelims-Loan-Calculator-Program-Gregorio.vbproj|solutionrelative:loancomputation.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6BB6E27-7B97-4E0C-9E81-C02CC4BEAC9B}|Prelims-Loan-Calculator-Program-Gregorio.vbproj|c:\\users\\yuwan\\downloads\\prelims-loan-calculator-program-gregorio\\applyloan.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{B6BB6E27-7B97-4E0C-9E81-C02CC4BEAC9B}|Prelims-Loan-Calculator-Program-Gregorio.vbproj|solutionrelative:applyloan.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6BB6E27-7B97-4E0C-9E81-C02CC4BEAC9B}|Prelims-Loan-Calculator-Program-Gregorio.vbproj|c:\\users\\yuwan\\downloads\\prelims-loan-calculator-program-gregorio\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{B6BB6E27-7B97-4E0C-9E81-C02CC4BEAC9B}|Prelims-Loan-Calculator-Program-Gregorio.vbproj|solutionrelative:form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6BB6E27-7B97-4E0C-9E81-C02CC4BEAC9B}|Prelims-Loan-Calculator-Program-Gregorio.vbproj|c:\\users\\yuwan\\downloads\\prelims-loan-calculator-program-gregorio\\applyloan.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{B6BB6E27-7B97-4E0C-9E81-C02CC4BEAC9B}|Prelims-Loan-Calculator-Program-Gregorio.vbproj|solutionrelative:applyloan.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B6BB6E27-7B97-4E0C-9E81-C02CC4BEAC9B}|Prelims-Loan-Calculator-Program-Gregorio.vbproj|c:\\users\\yuwan\\downloads\\prelims-loan-calculator-program-gregorio\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{B6BB6E27-7B97-4E0C-9E81-C02CC4BEAC9B}|Prelims-Loan-Calculator-Program-Gregorio.vbproj|solutionrelative:form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B6BB6E27-7B97-4E0C-9E81-C02CC4BEAC9B}|Prelims-Loan-Calculator-Program-Gregorio.vbproj|C:\\Users\\yuwan\\Downloads\\Prelims-Loan-Calculator-Program-Gregorio\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{B6BB6E27-7B97-4E0C-9E81-C02CC4BEAC9B}|Prelims-Loan-Calculator-Program-Gregorio.vbproj|solutionrelative:form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6BB6E27-7B97-4E0C-9E81-C02CC4BEAC9B}|Prelims-Loan-Calculator-Program-Gregorio.vbproj|c:\\users\\yuwan\\downloads\\prelims-loan-calculator-program-gregorio\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{B6BB6E27-7B97-4E0C-9E81-C02CC4BEAC9B}|Prelims-Loan-Calculator-Program-Gregorio.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{B6BB6E27-7B97-4E0C-9E81-C02CC4BEAC9B}|Prelims-Loan-Calculator-Program-Gregorio.vbproj|c:\\users\\yuwan\\downloads\\prelims-loan-calculator-program-gregorio\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|8998e48e-b89a-4034-b66e-353d8c1fdc2e"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,31 +40,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form1.vb",
-              "DocumentMoniker": "C:\\Users\\yuwan\\Downloads\\Prelims-Loan-Calculator-Program-Gregorio\\Form1.vb",
-              "RelativeDocumentMoniker": "Form1.vb",
-              "ToolTip": "C:\\Users\\yuwan\\Downloads\\Prelims-Loan-Calculator-Program-Gregorio\\Form1.vb*",
-              "RelativeToolTip": "Form1.vb*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAA8wAoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-07-03T08:53:21.941Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Form2.vb",
               "DocumentMoniker": "C:\\Users\\yuwan\\Downloads\\Prelims-Loan-Calculator-Program-Gregorio\\Form2.vb",
               "RelativeDocumentMoniker": "Form2.vb",
               "ToolTip": "C:\\Users\\yuwan\\Downloads\\Prelims-Loan-Calculator-Program-Gregorio\\Form2.vb",
               "RelativeToolTip": "Form2.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwCoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2026-07-03T09:33:49.633Z",
               "IsPinned": true,
@@ -66,51 +58,76 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Prelims-Loan-Calculator-Program-Gregorio",
+              "DocumentMoniker": "C:\\Users\\yuwan\\Downloads\\Prelims-Loan-Calculator-Program-Gregorio\\Prelims-Loan-Calculator-Program-Gregorio.vbproj",
+              "RelativeDocumentMoniker": "Prelims-Loan-Calculator-Program-Gregorio.vbproj",
+              "ToolTip": "C:\\Users\\yuwan\\Downloads\\Prelims-Loan-Calculator-Program-Gregorio\\Prelims-Loan-Calculator-Program-Gregorio.vbproj*",
+              "RelativeToolTip": "Prelims-Loan-Calculator-Program-Gregorio.vbproj*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-07-05T07:46:01.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "loanComputation.vb",
+              "DocumentMoniker": "C:\\Users\\yuwan\\Downloads\\Prelims-Loan-Calculator-Program-Gregorio\\loanComputation.vb",
+              "RelativeDocumentMoniker": "loanComputation.vb",
+              "ToolTip": "C:\\Users\\yuwan\\Downloads\\Prelims-Loan-Calculator-Program-Gregorio\\loanComputation.vb",
+              "RelativeToolTip": "loanComputation.vb",
+              "ViewState": "AgIAABwAAAAAAAAAAAAwwC8AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-07-05T06:41:19.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "applyLoan.vb",
+              "DocumentMoniker": "C:\\Users\\yuwan\\Downloads\\Prelims-Loan-Calculator-Program-Gregorio\\applyLoan.vb",
+              "RelativeDocumentMoniker": "applyLoan.vb",
+              "ToolTip": "C:\\Users\\yuwan\\Downloads\\Prelims-Loan-Calculator-Program-Gregorio\\applyLoan.vb",
+              "RelativeToolTip": "applyLoan.vb",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-07-05T06:32:21.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "applyLoan.vb [Design]",
               "DocumentMoniker": "C:\\Users\\yuwan\\Downloads\\Prelims-Loan-Calculator-Program-Gregorio\\applyLoan.vb",
               "RelativeDocumentMoniker": "applyLoan.vb",
               "ToolTip": "C:\\Users\\yuwan\\Downloads\\Prelims-Loan-Calculator-Program-Gregorio\\applyLoan.vb [Design]",
               "RelativeToolTip": "applyLoan.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-07-03T17:00:05.232Z",
+              "WhenOpened": "2026-07-05T05:17:34.167Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "loanComputation.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\yuwan\\Downloads\\Prelims-Loan-Calculator-Program-Gregorio\\loanComputation.vb",
+              "RelativeDocumentMoniker": "loanComputation.vb",
+              "ToolTip": "C:\\Users\\yuwan\\Downloads\\Prelims-Loan-Calculator-Program-Gregorio\\loanComputation.vb [Design]",
+              "RelativeToolTip": "loanComputation.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-07-05T05:24:30.099Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Form2.vb [Design]",
               "DocumentMoniker": "C:\\Users\\yuwan\\Downloads\\Prelims-Loan-Calculator-Program-Gregorio\\Form2.vb",
               "RelativeDocumentMoniker": "Form2.vb",
               "ToolTip": "C:\\Users\\yuwan\\Downloads\\Prelims-Loan-Calculator-Program-Gregorio\\Form2.vb [Design]",
               "RelativeToolTip": "Form2.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-07-03T16:59:57.601Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "applyLoan.vb",
-              "DocumentMoniker": "C:\\Users\\yuwan\\Downloads\\Prelims-Loan-Calculator-Program-Gregorio\\applyLoan.vb",
-              "RelativeDocumentMoniker": "applyLoan.vb",
-              "ToolTip": "C:\\Users\\yuwan\\Downloads\\Prelims-Loan-Calculator-Program-Gregorio\\applyLoan.vb",
-              "RelativeToolTip": "applyLoan.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-07-03T16:14:18.161Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\yuwan\\Downloads\\Prelims-Loan-Calculator-Program-Gregorio\\Form1.vb",
-              "RelativeDocumentMoniker": "Form1.vb",
-              "ToolTip": "C:\\Users\\yuwan\\Downloads\\Prelims-Loan-Calculator-Program-Gregorio\\Form1.vb [Design]*",
-              "RelativeToolTip": "Form1.vb [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-07-03T15:31:10.701Z",
+              "WhenOpened": "2026-07-05T05:17:32.087Z",
               "EditorCaption": " [Design]"
             }
           ]

@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form2
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Form2
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.btnApplyLoan = New System.Windows.Forms.Button()
         Me.btnLoanCompute = New System.Windows.Forms.Button()
@@ -39,7 +39,7 @@ Partial Class Form2
         Me.btnApplyLoan.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnApplyLoan.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnApplyLoan.Location = New System.Drawing.Point(48, 198)
-        Me.btnApplyLoan.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnApplyLoan.Margin = New System.Windows.Forms.Padding(4)
         Me.btnApplyLoan.Name = "btnApplyLoan"
         Me.btnApplyLoan.Size = New System.Drawing.Size(312, 55)
         Me.btnApplyLoan.TabIndex = 1
@@ -53,7 +53,7 @@ Partial Class Form2
         Me.btnLoanCompute.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnLoanCompute.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnLoanCompute.Location = New System.Drawing.Point(48, 300)
-        Me.btnLoanCompute.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnLoanCompute.Margin = New System.Windows.Forms.Padding(4)
         Me.btnLoanCompute.Name = "btnLoanCompute"
         Me.btnLoanCompute.Size = New System.Drawing.Size(312, 55)
         Me.btnLoanCompute.TabIndex = 2
@@ -67,7 +67,7 @@ Partial Class Form2
         Me.btnAbout.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnAbout.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAbout.Location = New System.Drawing.Point(47, 401)
-        Me.btnAbout.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnAbout.Margin = New System.Windows.Forms.Padding(4)
         Me.btnAbout.Name = "btnAbout"
         Me.btnAbout.Size = New System.Drawing.Size(312, 55)
         Me.btnAbout.TabIndex = 3
@@ -81,7 +81,7 @@ Partial Class Form2
         Me.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnLogout.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnLogout.Location = New System.Drawing.Point(48, 497)
-        Me.btnLogout.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnLogout.Margin = New System.Windows.Forms.Padding(4)
         Me.btnLogout.Name = "btnLogout"
         Me.btnLogout.Size = New System.Drawing.Size(312, 55)
         Me.btnLogout.TabIndex = 4
@@ -95,7 +95,7 @@ Partial Class Form2
         Me.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnExit.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnExit.Location = New System.Drawing.Point(48, 587)
-        Me.btnExit.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnExit.Margin = New System.Windows.Forms.Padding(4)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(312, 55)
         Me.btnExit.TabIndex = 5
@@ -131,7 +131,7 @@ Partial Class Form2
         Me.Controls.Add(Me.btnApplyLoan)
         Me.Controls.Add(Me.PictureBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "Form2"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form2"

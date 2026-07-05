@@ -25,3 +25,4 @@ C:\Users\yuwan\Downloads\Prelims-Loan-Calculator-Program-Gregorio\obj\Debug\Prel
 C:\Users\yuwan\Downloads\Prelims-Loan-Calculator-Program-Gregorio\obj\Debug\Prelims-Loan-Calculator-Program-Gregorio.xml
 C:\Users\yuwan\Downloads\Prelims-Loan-Calculator-Program-Gregorio\obj\Debug\Prelims-Loan-Calculator-Program-Gregorio.pdb
 C:\Users\yuwan\Downloads\Prelims-Loan-Calculator-Program-Gregorio\obj\Debug\Prelims_Loan_Calculator_Program_Gregorio.applyLoan.resources
+C:\Users\yuwan\Downloads\Prelims-Loan-Calculator-Program-Gregorio\obj\Debug\Prelims_Loan_Calculator_Program_Gregorio.loanComputation.resources

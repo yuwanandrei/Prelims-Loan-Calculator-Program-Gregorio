@@ -30,22 +30,39 @@
             Return
         End If
 
+        Dim salary As Decimal
+
+        If Not Decimal.TryParse(txtMonthlySalary.Text, salary) Then
+            MessageBox.Show("Please enter numbers only for Monthly Salary.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            txtMonthlySalary.Focus()
+            txtMonthlySalary.Clear()
+            Return
+        End If
+
+        Dim Loan As Decimal
+
+        If Not Decimal.TryParse(txtLoanAmount.Text, Loan) Then
+            MessageBox.Show("Please enter numbers only for Loan Amount.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            txtLoanAmount.Focus()
+            txtLoanAmount.Clear()
+            Return
+        End If
+
         Dim selectedText As String = cboLoanTerm.SelectedItem.ToString()
         Dim months As Integer = Integer.Parse(selectedText.Split(" "c)(0))
         Dim monthlyAmortization As Double
         monthlyAmortization = Val(txtLoanAmount.Text) / months
 
         If txtMonthlySalary.Text < 20000 Then
-            MessageBox.Show("Monthy Salary must be at least P20,000.", "DISAPPROVED", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            MessageBox.Show("Monthy Salary Must Be At Least P20,000.", "DISAPPROVED", MessageBoxButtons.OK, MessageBoxIcon.Error)
             Me.Hide()
             ClearAllFields(Me)
-
         ElseIf monthlyAmortization > (Val(txtMonthlySalary.Text) * 0.35) Then
-            MessageBox.Show("Monthy Amortization must not exceed 35% of the customer's Monthly Salary.", "DISAPPROVED", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            MessageBox.Show("Monthy Amortization Must Not Exceed 35% of the Customer's Monthly Salary.", "DISAPPROVED", MessageBoxButtons.OK, MessageBoxIcon.Error)
             Me.Hide()
             ClearAllFields(Me)
         Else
-            Form2.switchpanel(New loanComputation())
+            MainMenu.switchpanel(New loanComputation())
             ClearAllFields(Me)
         End If
     End Sub
@@ -60,6 +77,7 @@
             Return cboLoanType.SelectedItem.ToString()
             Return txtLoanAmount.Text
             Return cboLoanTerm.SelectedItem.ToString()
+
         End Get
     End Property
 
@@ -108,7 +126,7 @@
 
     End Sub
 
-    Private Sub lblLoanDetails_Click(sender As Object, e As EventArgs) Handles lblLoanDetails.Click
+    Private Sub lblLoanDetails_Click(sender As Object, e As EventArgs)
 
     End Sub
 

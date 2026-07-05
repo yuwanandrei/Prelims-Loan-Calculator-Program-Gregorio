@@ -23,11 +23,13 @@ Partial Class applyLoan
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.lblStep1 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.toLoanComputation = New System.Windows.Forms.Button()
         Me.cboLoanTerm = New System.Windows.Forms.ComboBox()
         Me.lblLoanTerm = New System.Windows.Forms.Label()
         Me.lblLoanAmount = New System.Windows.Forms.Label()
         Me.txtLoanAmount = New System.Windows.Forms.TextBox()
-        Me.lblLoanDetails = New System.Windows.Forms.Label()
         Me.lblLoanType = New System.Windows.Forms.Label()
         Me.cboLoanType = New System.Windows.Forms.ComboBox()
         Me.lblLoanInformation = New System.Windows.Forms.Label()
@@ -44,9 +46,6 @@ Partial Class applyLoan
         Me.txtContactNumber = New System.Windows.Forms.TextBox()
         Me.txtAddress = New System.Windows.Forms.TextBox()
         Me.txtCustomerName = New System.Windows.Forms.TextBox()
-        Me.toLoanComputation = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.lblStep1 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -60,7 +59,6 @@ Partial Class applyLoan
         Me.Panel1.Controls.Add(Me.lblLoanTerm)
         Me.Panel1.Controls.Add(Me.lblLoanAmount)
         Me.Panel1.Controls.Add(Me.txtLoanAmount)
-        Me.Panel1.Controls.Add(Me.lblLoanDetails)
         Me.Panel1.Controls.Add(Me.lblLoanType)
         Me.Panel1.Controls.Add(Me.cboLoanType)
         Me.Panel1.Controls.Add(Me.lblLoanInformation)
@@ -83,12 +81,40 @@ Partial Class applyLoan
         Me.Panel1.Size = New System.Drawing.Size(906, 708)
         Me.Panel1.TabIndex = 0
         '
+        'lblStep1
+        '
+        Me.lblStep1.AutoSize = True
+        Me.lblStep1.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblStep1.Location = New System.Drawing.Point(25, 18)
+        Me.lblStep1.Name = "lblStep1"
+        Me.lblStep1.Size = New System.Drawing.Size(242, 69)
+        Me.lblStep1.TabIndex = 42
+        Me.lblStep1.Text = "STEP 1"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(587, 1318)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(0, 16)
+        Me.Label1.TabIndex = 41
+        '
+        'toLoanComputation
+        '
+        Me.toLoanComputation.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.toLoanComputation.Location = New System.Drawing.Point(92, 1209)
+        Me.toLoanComputation.Name = "toLoanComputation"
+        Me.toLoanComputation.Size = New System.Drawing.Size(98, 50)
+        Me.toLoanComputation.TabIndex = 40
+        Me.toLoanComputation.Text = "Next"
+        Me.toLoanComputation.UseVisualStyleBackColor = True
+        '
         'cboLoanTerm
         '
         Me.cboLoanTerm.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboLoanTerm.FormattingEnabled = True
         Me.cboLoanTerm.Items.AddRange(New Object() {"12 Months", "24 Months", "36 Months"})
-        Me.cboLoanTerm.Location = New System.Drawing.Point(92, 1251)
+        Me.cboLoanTerm.Location = New System.Drawing.Point(92, 1101)
         Me.cboLoanTerm.Name = "cboLoanTerm"
         Me.cboLoanTerm.Size = New System.Drawing.Size(393, 33)
         Me.cboLoanTerm.TabIndex = 39
@@ -97,7 +123,7 @@ Partial Class applyLoan
         '
         Me.lblLoanTerm.AutoSize = True
         Me.lblLoanTerm.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblLoanTerm.Location = New System.Drawing.Point(87, 1199)
+        Me.lblLoanTerm.Location = New System.Drawing.Point(87, 1049)
         Me.lblLoanTerm.Name = "lblLoanTerm"
         Me.lblLoanTerm.Size = New System.Drawing.Size(212, 25)
         Me.lblLoanTerm.TabIndex = 38
@@ -107,7 +133,7 @@ Partial Class applyLoan
         '
         Me.lblLoanAmount.AutoSize = True
         Me.lblLoanAmount.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblLoanAmount.Location = New System.Drawing.Point(87, 1077)
+        Me.lblLoanAmount.Location = New System.Drawing.Point(87, 927)
         Me.lblLoanAmount.Name = "lblLoanAmount"
         Me.lblLoanAmount.Size = New System.Drawing.Size(239, 25)
         Me.lblLoanAmount.TabIndex = 37
@@ -116,20 +142,10 @@ Partial Class applyLoan
         'txtLoanAmount
         '
         Me.txtLoanAmount.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtLoanAmount.Location = New System.Drawing.Point(92, 1126)
+        Me.txtLoanAmount.Location = New System.Drawing.Point(92, 976)
         Me.txtLoanAmount.Name = "txtLoanAmount"
         Me.txtLoanAmount.Size = New System.Drawing.Size(393, 30)
         Me.txtLoanAmount.TabIndex = 36
-        '
-        'lblLoanDetails
-        '
-        Me.lblLoanDetails.AutoSize = True
-        Me.lblLoanDetails.Font = New System.Drawing.Font("Microsoft Sans Serif", 22.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblLoanDetails.Location = New System.Drawing.Point(52, 1002)
-        Me.lblLoanDetails.Name = "lblLoanDetails"
-        Me.lblLoanDetails.Size = New System.Drawing.Size(238, 42)
-        Me.lblLoanDetails.TabIndex = 33
-        Me.lblLoanDetails.Text = "Loan Details"
         '
         'lblLoanType
         '
@@ -279,34 +295,6 @@ Partial Class applyLoan
         Me.txtCustomerName.Size = New System.Drawing.Size(393, 30)
         Me.txtCustomerName.TabIndex = 17
         '
-        'toLoanComputation
-        '
-        Me.toLoanComputation.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.toLoanComputation.Location = New System.Drawing.Point(92, 1359)
-        Me.toLoanComputation.Name = "toLoanComputation"
-        Me.toLoanComputation.Size = New System.Drawing.Size(98, 50)
-        Me.toLoanComputation.TabIndex = 40
-        Me.toLoanComputation.Text = "Next"
-        Me.toLoanComputation.UseVisualStyleBackColor = True
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(572, 1475)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(0, 16)
-        Me.Label1.TabIndex = 41
-        '
-        'lblStep1
-        '
-        Me.lblStep1.AutoSize = True
-        Me.lblStep1.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblStep1.Location = New System.Drawing.Point(25, 18)
-        Me.lblStep1.Name = "lblStep1"
-        Me.lblStep1.Size = New System.Drawing.Size(242, 69)
-        Me.lblStep1.TabIndex = 42
-        Me.lblStep1.Text = "STEP 1"
-        '
         'applyLoan
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -324,7 +312,6 @@ Partial Class applyLoan
     End Sub
 
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents lblLoanDetails As Label
     Friend WithEvents lblLoanType As Label
     Friend WithEvents cboLoanType As ComboBox
     Friend WithEvents lblLoanInformation As Label

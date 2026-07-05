@@ -32,7 +32,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.Prelims_Loan_Calculator_Program_Gregorio.Form1
+            Me.MainForm = Global.Prelims_Loan_Calculator_Program_Gregorio.LoginScreen
         End Sub
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _

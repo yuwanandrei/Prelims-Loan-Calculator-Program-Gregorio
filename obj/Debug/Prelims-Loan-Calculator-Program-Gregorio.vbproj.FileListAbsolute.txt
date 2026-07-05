@@ -16,8 +16,6 @@ C:\Users\yuwan\Downloads\Prelims-Loan-Calculator-Program-Gregorio\bin\Debug\Prel
 C:\Users\yuwan\Downloads\Prelims-Loan-Calculator-Program-Gregorio\bin\Debug\Prelims-Loan-Calculator-Program-Gregorio.pdb
 C:\Users\yuwan\Downloads\Prelims-Loan-Calculator-Program-Gregorio\bin\Debug\Prelims-Loan-Calculator-Program-Gregorio.xml
 C:\Users\yuwan\Downloads\Prelims-Loan-Calculator-Program-Gregorio\obj\Debug\Prelims-Loan-Calculator-Program-Gregorio.vbproj.AssemblyReference.cache
-C:\Users\yuwan\Downloads\Prelims-Loan-Calculator-Program-Gregorio\obj\Debug\Prelims_Loan_Calculator_Program_Gregorio.Form1.resources
-C:\Users\yuwan\Downloads\Prelims-Loan-Calculator-Program-Gregorio\obj\Debug\Prelims_Loan_Calculator_Program_Gregorio.Form2.resources
 C:\Users\yuwan\Downloads\Prelims-Loan-Calculator-Program-Gregorio\obj\Debug\Prelims_Loan_Calculator_Program_Gregorio.Resources.resources
 C:\Users\yuwan\Downloads\Prelims-Loan-Calculator-Program-Gregorio\obj\Debug\Prelims-Loan-Calculator-Program-Gregorio.vbproj.GenerateResource.cache
 C:\Users\yuwan\Downloads\Prelims-Loan-Calculator-Program-Gregorio\obj\Debug\Prelims-Loan-Calculator-Program-Gregorio.vbproj.CoreCompileInputs.cache
@@ -26,3 +24,5 @@ C:\Users\yuwan\Downloads\Prelims-Loan-Calculator-Program-Gregorio\obj\Debug\Prel
 C:\Users\yuwan\Downloads\Prelims-Loan-Calculator-Program-Gregorio\obj\Debug\Prelims-Loan-Calculator-Program-Gregorio.pdb
 C:\Users\yuwan\Downloads\Prelims-Loan-Calculator-Program-Gregorio\obj\Debug\Prelims_Loan_Calculator_Program_Gregorio.applyLoan.resources
 C:\Users\yuwan\Downloads\Prelims-Loan-Calculator-Program-Gregorio\obj\Debug\Prelims_Loan_Calculator_Program_Gregorio.loanComputation.resources
+C:\Users\yuwan\Downloads\Prelims-Loan-Calculator-Program-Gregorio\obj\Debug\Prelims_Loan_Calculator_Program_Gregorio.MainMenu.resources
+C:\Users\yuwan\Downloads\Prelims-Loan-Calculator-Program-Gregorio\obj\Debug\Prelims_Loan_Calculator_Program_Gregorio.LoginScreen.resources

@@ -85,6 +85,18 @@
     <Compile Include="applyLoan.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="developerInfo.Designer.vb">
+      <DependentUpon>developerInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="developerInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="help.Designer.vb">
+      <DependentUpon>help.vb</DependentUpon>
+    </Compile>
+    <Compile Include="help.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="LoginScreen.Designer.vb">
       <DependentUpon>LoginScreen.vb</DependentUpon>
     </Compile>
@@ -132,6 +144,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="applyLoan.resx">
       <DependentUpon>applyLoan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="developerInfo.resx">
+      <DependentUpon>developerInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="help.resx">
+      <DependentUpon>help.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginScreen.resx">
       <DependentUpon>LoginScreen.vb</DependentUpon>

@@ -62,4 +62,12 @@
     Private Sub btnAbout_Click(sender As Object, e As EventArgs) Handles btnAbout.Click
         switchpanel(About)
     End Sub
+
+    Private Sub btnDevInfo_Click(sender As Object, e As EventArgs) Handles btnDevInfo.Click
+        switchpanel(developer)
+    End Sub
+
+    Private Sub btnHelp_Click(sender As Object, e As EventArgs) Handles btnHelp.Click
+        switchpanel(help)
+    End Sub
 End Class

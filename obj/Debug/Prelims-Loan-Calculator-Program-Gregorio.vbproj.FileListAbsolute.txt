@@ -28,3 +28,5 @@ C:\Users\yuwan\Downloads\Prelims-Loan-Calculator-Program-Gregorio\obj\Debug\Prel
 C:\Users\yuwan\Downloads\Prelims-Loan-Calculator-Program-Gregorio\obj\Debug\Prelims_Loan_Calculator_Program_Gregorio.LoginScreen.resources
 C:\Users\yuwan\Downloads\Prelims-Loan-Calculator-Program-Gregorio\obj\Debug\Prelims_Loan_Calculator_Program_Gregorio.pendingLoans.resources
 C:\Users\yuwan\Downloads\Prelims-Loan-Calculator-Program-Gregorio\obj\Debug\Prelims_Loan_Calculator_Program_Gregorio.About.resources
+C:\Users\yuwan\Downloads\Prelims-Loan-Calculator-Program-Gregorio\obj\Debug\Prelims_Loan_Calculator_Program_Gregorio.developer.resources
+C:\Users\yuwan\Downloads\Prelims-Loan-Calculator-Program-Gregorio\obj\Debug\Prelims_Loan_Calculator_Program_Gregorio.help.resources

@@ -28,9 +28,9 @@ Partial Class MainMenu
         Me.btnLogout = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
         Me.mainPanel = New System.Windows.Forms.Panel()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.btnDevInfo = New System.Windows.Forms.Button()
         Me.btnHelp = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -108,17 +108,8 @@ Partial Class MainMenu
         '
         Me.mainPanel.Location = New System.Drawing.Point(398, 0)
         Me.mainPanel.Name = "mainPanel"
-        Me.mainPanel.Size = New System.Drawing.Size(906, 708)
+        Me.mainPanel.Size = New System.Drawing.Size(909, 708)
         Me.mainPanel.TabIndex = 8
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.BackColor = System.Drawing.Color.SteelBlue
-        Me.PictureBox1.Location = New System.Drawing.Point(-1, 0)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(399, 708)
-        Me.PictureBox1.TabIndex = 7
-        Me.PictureBox1.TabStop = False
         '
         'btnDevInfo
         '
@@ -148,11 +139,20 @@ Partial Class MainMenu
         Me.btnHelp.Text = "Help"
         Me.btnHelp.UseVisualStyleBackColor = False
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackColor = System.Drawing.Color.SteelBlue
+        Me.PictureBox1.Location = New System.Drawing.Point(-1, 0)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(399, 708)
+        Me.PictureBox1.TabIndex = 7
+        Me.PictureBox1.TabStop = False
+        '
         'MainMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1299, 700)
+        Me.ClientSize = New System.Drawing.Size(1307, 700)
         Me.Controls.Add(Me.btnHelp)
         Me.Controls.Add(Me.btnDevInfo)
         Me.Controls.Add(Me.mainPanel)

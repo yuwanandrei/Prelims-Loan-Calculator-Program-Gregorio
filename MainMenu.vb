@@ -58,4 +58,8 @@
         End If
 
     End Sub
+
+    Private Sub btnAbout_Click(sender As Object, e As EventArgs) Handles btnAbout.Click
+        switchpanel(About)
+    End Sub
 End Class

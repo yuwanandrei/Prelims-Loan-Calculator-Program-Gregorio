@@ -30,7 +30,12 @@
     End Sub
 
     Private Sub btnApplyLoan_Click(sender As Object, e As EventArgs) Handles btnApplyLoan.Click
-        switchpanel(applyLoan)
+        If String.IsNullOrEmpty(pendingLoans.lblLoanCode.Text) Then
+            switchpanel(applyLoan)
+        Else
+            MessageBox.Show("Please Settle Your Loan First Before Applying Again.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End If
+
     End Sub
 
     Private Sub Panel1_Paint_1(sender As Object, e As PaintEventArgs)
@@ -42,6 +47,15 @@
     End Sub
 
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub btnViewPendingLoan_Click(sender As Object, e As EventArgs) Handles btnViewPendingLoan.Click
+        If String.IsNullOrEmpty(pendingLoans.lblLoanCode.Text) Then
+            MessageBox.Show("You Currenly Have No Pending Loans.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        Else
+            switchpanel(pendingLoans)
+        End If
 
     End Sub
 End Class

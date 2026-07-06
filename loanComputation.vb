@@ -1,16 +1,6 @@
-﻿Public Class loanComputation
-    Private Sub ClearAllFields(parent As Control)
-        For Each ctrl As Control In parent.Controls
-            If TypeOf ctrl Is TextBox Then
-                CType(ctrl, TextBox).Clear()
-            End If
+﻿Imports System.Windows
 
-            If ctrl.HasChildren Then
-                ClearAllFields(ctrl)
-            End If
-        Next
-    End Sub
-
+Public Class loanComputation
     Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs)
 
     End Sub
@@ -98,9 +88,39 @@
 
     End Sub
 
+    Private Sub GenerateLoanCode()
+        Dim loanCode As String = "LN-" & DateTime.Now.ToString("yyyyMMddHHmmss")
+        pendingLoans.lblLoanCode.Text = loanCode
+    End Sub
+
+
     Private Sub toLoanComputation_Click(sender As Object, e As EventArgs) Handles toLoanComputation.Click
+        GenerateLoanCode()
         MessageBox.Show("Loan Approved. Check Pending Loans For More Information.", "APPROVED", MessageBoxButtons.OK, MessageBoxIcon.Information)
         Me.Hide()
-        ClearAllFields(Me)
+
+    End Sub
+    Private Sub lblCN_Click_1(sender As Object, e As EventArgs) Handles lblCN.Click
+
+    End Sub
+
+    Private Sub lblAdd_Click_1(sender As Object, e As EventArgs) Handles lblAdd.Click
+
+    End Sub
+
+    Private Sub lblContact_Click_1(sender As Object, e As EventArgs) Handles lblContact.Click
+
+    End Sub
+
+    Private Sub lblOccupation_Click_1(sender As Object, e As EventArgs) Handles lblOccupation.Click
+
+    End Sub
+
+    Private Sub lblCompany_Click_1(sender As Object, e As EventArgs) Handles lblCompany.Click
+
+    End Sub
+
+    Private Sub lblSalary_Click_1(sender As Object, e As EventArgs) Handles lblSalary.Click
+
     End Sub
 End Class

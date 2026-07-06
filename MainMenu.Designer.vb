@@ -59,7 +59,7 @@ Partial Class MainMenu
         Me.btnViewPendingLoan.Name = "btnViewPendingLoan"
         Me.btnViewPendingLoan.Size = New System.Drawing.Size(312, 55)
         Me.btnViewPendingLoan.TabIndex = 2
-        Me.btnViewPendingLoan.Text = "View Pending Loan"
+        Me.btnViewPendingLoan.Text = "View Approved Loans"
         Me.btnViewPendingLoan.UseVisualStyleBackColor = False
         '
         'btnAbout

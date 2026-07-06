@@ -62,26 +62,10 @@
             Me.Hide()
             ClearAllFields(Me)
         Else
-            MainMenu.switchpanel(New loanComputation())
+            MainMenu.switchpanel(loanComputation)
             ClearAllFields(Me)
         End If
     End Sub
-    Public ReadOnly Property LoanAmount As String
-        Get
-            Return txtCustomerName.Text
-            Return txtAddress.Text
-            Return txtContactNumber.Text
-            Return txtOccupation.Text
-            Return txtCompanyName.Text
-            Return txtMonthlySalary.Text
-            Return cboLoanType.SelectedItem.ToString()
-            Return txtLoanAmount.Text
-            Return cboLoanTerm.SelectedItem.ToString()
-
-        End Get
-    End Property
-
-
     Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
 
     End Sub

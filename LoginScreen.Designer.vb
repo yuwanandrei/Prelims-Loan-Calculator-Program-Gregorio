@@ -22,25 +22,15 @@ Partial Class LoginScreen
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.lblLOGINSCREEN = New System.Windows.Forms.Label()
         Me.lblUsername = New System.Windows.Forms.Label()
         Me.lblPassword = New System.Windows.Forms.Label()
         Me.txtUsername = New System.Windows.Forms.TextBox()
         Me.txtPassword = New System.Windows.Forms.TextBox()
         Me.btnLogin = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.btnHideShowPass = New System.Windows.Forms.Button()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'lblLOGINSCREEN
-        '
-        Me.lblLOGINSCREEN.AutoSize = True
-        Me.lblLOGINSCREEN.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblLOGINSCREEN.Location = New System.Drawing.Point(135, 83)
-        Me.lblLOGINSCREEN.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.lblLOGINSCREEN.Name = "lblLOGINSCREEN"
-        Me.lblLOGINSCREEN.Size = New System.Drawing.Size(276, 39)
-        Me.lblLOGINSCREEN.TabIndex = 0
-        Me.lblLOGINSCREEN.Text = "LOGIN SCREEN"
         '
         'lblUsername
         '
@@ -94,6 +84,16 @@ Partial Class LoginScreen
         Me.btnLogin.Text = "LOGIN"
         Me.btnLogin.UseVisualStyleBackColor = True
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.Prelims_Loan_Calculator_Program_Gregorio.My.Resources.Resources.logo
+        Me.PictureBox1.Location = New System.Drawing.Point(186, 12)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(190, 215)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox1.TabIndex = 7
+        Me.PictureBox1.TabStop = False
+        '
         'btnHideShowPass
         '
         Me.btnHideShowPass.BackgroundImage = Global.Prelims_Loan_Calculator_Program_Gregorio.My.Resources.Resources.hide
@@ -110,30 +110,31 @@ Partial Class LoginScreen
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.White
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.ClientSize = New System.Drawing.Size(545, 511)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.btnHideShowPass)
         Me.Controls.Add(Me.btnLogin)
         Me.Controls.Add(Me.txtPassword)
         Me.Controls.Add(Me.txtUsername)
         Me.Controls.Add(Me.lblPassword)
         Me.Controls.Add(Me.lblUsername)
-        Me.Controls.Add(Me.lblLOGINSCREEN)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "LoginScreen"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Login"
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents lblLOGINSCREEN As Label
     Friend WithEvents lblUsername As Label
     Friend WithEvents lblPassword As Label
     Friend WithEvents txtUsername As TextBox
     Friend WithEvents txtPassword As TextBox
     Friend WithEvents btnLogin As Button
     Friend WithEvents btnHideShowPass As Button
+    Friend WithEvents PictureBox1 As PictureBox
 End Class

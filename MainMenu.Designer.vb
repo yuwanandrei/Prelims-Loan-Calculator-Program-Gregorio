@@ -30,7 +30,9 @@ Partial Class MainMenu
         Me.mainPanel = New System.Windows.Forms.Panel()
         Me.btnDevInfo = New System.Windows.Forms.Button()
         Me.btnHelp = New System.Windows.Forms.Button()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -139,6 +141,16 @@ Partial Class MainMenu
         Me.btnHelp.Text = "Help"
         Me.btnHelp.UseVisualStyleBackColor = False
         '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = Global.Prelims_Loan_Calculator_Program_Gregorio.My.Resources.Resources.picture
+        Me.PictureBox2.Location = New System.Drawing.Point(18, 21)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(362, 124)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox2.TabIndex = 11
+        Me.PictureBox2.TabStop = False
+        '
         'PictureBox1
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.SteelBlue
@@ -153,6 +165,7 @@ Partial Class MainMenu
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1307, 700)
+        Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.btnHelp)
         Me.Controls.Add(Me.btnDevInfo)
         Me.Controls.Add(Me.mainPanel)
@@ -167,6 +180,7 @@ Partial Class MainMenu
         Me.Name = "MainMenu"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form2"
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
@@ -180,4 +194,5 @@ Partial Class MainMenu
     Friend WithEvents mainPanel As Panel
     Friend WithEvents btnDevInfo As Button
     Friend WithEvents btnHelp As Button
+    Friend WithEvents PictureBox2 As PictureBox
 End Class

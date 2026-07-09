@@ -1,5 +1,5 @@
 ﻿Public Class LoginScreen
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles lblLOGINSCREEN.Click
+    Private Sub Label1_Click(sender As Object, e As EventArgs)
 
     End Sub
 

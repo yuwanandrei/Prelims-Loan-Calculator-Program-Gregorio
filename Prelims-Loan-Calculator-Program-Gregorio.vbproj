@@ -185,5 +185,14 @@
   <ItemGroup>
     <None Include="hide.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Untitled design.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

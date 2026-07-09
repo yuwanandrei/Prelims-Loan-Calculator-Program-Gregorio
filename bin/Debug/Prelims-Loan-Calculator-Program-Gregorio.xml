@@ -27,5 +27,20 @@ Prelims-Loan-Calculator-Program-Gregorio
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Prelims_Loan_Calculator_Program_Gregorio.My.Resources.Resources.logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Prelims_Loan_Calculator_Program_Gregorio.My.Resources.Resources.picture">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Prelims_Loan_Calculator_Program_Gregorio.My.Resources.Resources.Untitled_design">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 </members>
 </doc>
